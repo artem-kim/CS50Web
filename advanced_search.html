@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+      <form action="https://google.com/search">
+        <div class="input-group input-group-sm mb-3 advancedbuttons" id="allthesewords">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-sm">all these words:</span>
+          </div>
+          <input type="text" class="form-control" name="as_q" autofocus="autofocus" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+        </div>
+        <div class="input-group input-group-sm mb-3 advancedbuttons" id="exactword">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-sm">this exact word or phrase:</span>
+          </div>
+          <input type="text" class="form-control" name="as_epq" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+        </div>
+        <div class="input-group input-group-sm mb-3 advancedbuttons" id="anyword">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-sm">any of these words:</span>
+          </div>
+          <input type="text" class="form-control" name="as_oq" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+        </div>
+        <div class="input-group input-group-sm mb-3 advancedbuttons" id="nonewords">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-sm">none of these words:</span>
+          </div>
+          <input type="text" class="form-control" name="as_eq" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+        </div>
+        <button type="submit" class="btn btn-primary" id="advancedsearchbutton" value="Advanced Search">Advanced Search</button>
+      </form>
+
+      <div id="toptext">
+        Find pages with...
+      </div>
+      <div id="topredtext">
+        Advanced Search
+      </div>
+      <div class="cornerbuttons">
+        <a href="index.html" type="button" class="btn btn-secondary btn-sm">Back to Google Search</a>
+      </div>
+    </body>
+</html>
